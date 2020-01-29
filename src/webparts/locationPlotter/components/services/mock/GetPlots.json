@@ -1,0 +1,17 @@
+[
+    {
+        "id": "84b80893-8749-40a3-97b7-68513b600544",
+        "displayName": "John Smith",
+        "mail": "john@contoso.com",
+        "mobilePhone": "1-555-6589",
+        "extensions": [
+            {
+                "@odata.type": "#microsoft.graph.openTypeExtension",
+                "extensionName":"com.proactive.locationPlotter",
+                "x": 10,
+                "y": 35,
+                "area": "af2c3f38-f054-43f6-9c8f-4731dc8ce453"
+            }
+        ]
+    }
+]

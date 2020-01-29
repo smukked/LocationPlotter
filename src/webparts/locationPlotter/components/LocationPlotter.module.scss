@@ -1,0 +1,91 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+@font-face {
+  font-family: 'FabricMDL2Icons';
+  src: url('data:application/octet-stream;base64,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') format('truetype');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--POI:before { content: "\ECAF"; }
+
+.locationPlotter {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}

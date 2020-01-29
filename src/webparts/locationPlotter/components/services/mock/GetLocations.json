@@ -1,0 +1,68 @@
+{
+    "country": [
+        {
+            "key": "bd388eb3-163d-4200-a8b8-bb2a1b5ffe09",
+            "text": "Denmark",
+            "data": [
+                {
+                    "key": "4a2652f8-aa41-49e4-968a-28007125cf0d",
+                    "text": "Copenhagen",
+                    "data": [
+                        {
+                            "key": "f85ec97f-398a-4ca4-8cdd-032eb4c0d00e",
+                            "text": "Basement",
+                            "data": "/images/0--1.png"
+                        },
+                        {
+                            "key": "af2c3f38-f054-43f6-9c8f-4731dc8ce453",
+                            "text": "Ground floor",
+                            "data": "/images/0-0.png"
+                        },
+                        {
+                            "key": "13cd9c6a-41e8-4935-b039-8947b2b6e157",
+                            "text": "1. floor",
+                            "data": "/images/0-1.png"
+                        },
+                        {
+                            "key": "4123011f-ab3a-40cd-be98-0dbbd3b736a6",
+                            "text": "2. floor",
+                            "data": "/images/0-2.png"
+                        },
+                        {
+                            "key": "b7bca40c-deec-4419-a1e9-e44a5d06be5f",
+                            "text": "3. floor",
+                            "data": "/images/0-3.png"
+                        },
+                        {
+                            "key": "9ceed6b9-6ca1-4315-b9d4-b9c0ee8fb066",
+                            "text": "4. floor",
+                            "data": "/images/0-4.png"
+                        }
+                    ]
+                },
+                {
+                    "key": "2b69fb2b-9b48-42c0-bcb2-7ee04044bde6",
+                    "text": "Odense",
+                    "data": [
+                        {
+                            "key": "153370af-ef91-4201-aadf-60a7751a46f3",
+                            "text": "3. floor",
+                            "data": "/images/1-0.png"
+                        }
+                    ]
+                },
+                {
+                    "key": "bd9bb9e5-61fa-47f5-9f20-541f306d9312",
+                    "text": "Århus",
+                    "data": [
+                        {
+                            "key": "ad41dd99-0517-4a8c-b3ab-74751b10d1eb",
+                            "text": "1. floor",
+                            "data": "/images/2-0.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

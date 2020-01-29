@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "location-plotter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/locationPlotter/LocationPlotterWebPart.js",
+          "manifest": "./src/webparts/locationPlotter/LocationPlotterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LocationPlotterWebPartStrings": "lib/webparts/locationPlotter/loc/{locale}.js"
+  }
+}

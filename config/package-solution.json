@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "location-plotter-client-side-solution",
+    "id": "ff9a1701-ba9e-4dc1-b038-64017fb61892",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/location-plotter.sppkg"
+  }
+}
